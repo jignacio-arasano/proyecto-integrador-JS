@@ -1,0 +1,51 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* Esto crea un diseño de 3 columnas con margen */
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .card-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-prod {
+    margin: 10px 0;
+  }
+  
+  .button a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .button a:hover {
+    background-color: #0056b3;
+  }
+  .verMasCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .verMas{
+    background-color: rgb(0, 132, 255);
+    padding: 0.4em;
+    color: #fff;
+    border-radius: 2%;
+  }
+  
+
+  
+  
+  
